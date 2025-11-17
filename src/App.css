@@ -1,10 +1,14 @@
-@import "tailwindcss";
-
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+}
+
+html,
+body {
+  background-color: rgb(30, 31, 31); /* Use the hex code for black */
+  margin: 0; /* Remove default browser margins */
+  padding: 0; /* Remove default browser padding */
 }
 
 .logo {
